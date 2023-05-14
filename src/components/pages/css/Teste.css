@@ -1,0 +1,15 @@
+.la{
+    color: pink;
+  }
+  #dark h5{
+    color: aqua;
+  }
+  #light h5{
+    color: rosybrown;
+  }
+  #dark{
+    background-color: #000000
+  }
+  #light{
+    background-color: aqua;
+  }

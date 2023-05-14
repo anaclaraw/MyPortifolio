@@ -1,0 +1,147 @@
+.sobre {
+    padding-bottom: 5vw;
+
+}
+
+.container_projetos {
+    margin-top: 5vw;
+    background-color: #1A1A1A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    flex-wrap: wrap;
+
+}
+
+.container_projetos svg {
+    font-size: 60px;
+    color: rgb(250, 250, 250);
+    margin-bottom: 30px;
+}
+.container_projetos svg:hover{
+    border: none;
+    border-radius:100px ;
+    color: #d5d5d5;
+}
+
+.container_sobre {
+    color: white;
+    margin-right: 30px;
+    max-width: 600px;
+    font-size: larger;
+    /* border-top: solid 5px #ffffffef; */
+
+}
+
+.grid1 {
+    background-color: #1A1A1A;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+
+}
+
+.ftprojects{
+    max-width: 60%;
+    height: 100px;
+    padding: 20px;
+}
+
+.box {
+    width: 300px;
+    height: min-content;
+    background-color: aliceblue;
+    margin: 20px;
+    border: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 5px 5px 0 0 rgb(0, 0, 0);
+    transition: all 1s;
+
+}
+.box svg{
+    font-size: xx-large;
+    color: #1A1A1A;
+}
+.box:hover {
+    transform: scale(1.05) ;
+    filter: saturate(300%) brightness(120%) invert(90%);
+
+}
+
+/* 
+.box {
+    margin: 20px;
+    width: 25%;
+    min-height: 50px;
+    box-shadow: 5px 5px 0 0 rgb(0, 0, 0);
+    background-color: rgb(146, 146, 146);
+    display: flex;
+    justify-content: center;
+    /* align-items: center; 
+    border: 3px solid rgb(150, 150, 150);
+    border-top-right-radius: 20px;
+    transition: all 2s;
+    padding-top: 1%;
+ /* animation: circle 8s linear infinite; 
+
+}
+
+.box svg{
+    font-size: xx-large;
+    color: #1A1A1A;
+}
+
+
+.box:hover {
+    transform: translate(-3%, 3%) scale(1.05);
+    filter: saturate(300%) brightness(120%);
+
+}
+
+.ftprojects {
+    width: 50%;
+    height: 100%;
+
+
+}
+
+.title_project h1{
+    font-size: x-large;
+}
+
+
+@media screen and (max-width:990px) {
+    .container_projetos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+        padding: 0px;
+    }
+
+    .grid1 {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .box {
+        width: 80%;
+    }
+
+    .linha {
+        width: 0px;
+    }
+
+    .ftPerfil {
+        width: 35vw;
+    }
+} */

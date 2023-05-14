@@ -1,0 +1,120 @@
+.all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.all .title {
+  /* box-shadow: 2px 2px 0px 2px black; */
+  margin-bottom: 30px;
+  padding: 10px;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+}
+
+.cursos {
+  width: 90%;
+  height: max-content;
+
+}
+
+.curso_item {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10vw;
+  background-color: rgba(192, 192, 192, 0.678);
+
+}
+
+/* .curso_item p, .curso_item h1{
+    background-color: azure;
+    margin-left: 5vw;
+    box-sizing: border-box;
+    border: 1px solid #c1c2c3;    
+} */
+
+.ftprojects {
+  width: 40vw;
+  box-shadow: 1px;
+  border-left:8px solid black;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+  padding-top: 50px;
+  font-size: large;
+  width: 50%;
+}
+
+@media screen and (max-width: 800px) {
+  .curso_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    background-color: transparent;
+
+  }
+
+  .cursos {
+    width: 80%;
+
+
+  }
+  .text{
+    width: 90%;
+    font-size: medium;
+    
+  }
+  .curso_item{
+    background-color: rgb(180, 180, 180);
+    box-shadow: 8px 10px 1px 1px black;
+  }
+  
+
+
+}
+@media screen and (max-width: 500px) {
+  .text{
+    font-size: smaller;
+  }
+}
+/* .div_img{
+    box-shadow: 4px 4px coral, 6px 6px olive, 8px 8px dodgerblue;
+  } */
+
+/* 
+  .div_img {
+    background-color: transparent;
+    border: 1px solid #266DB6;
+    box-sizing: border-box;
+    color: #00132C;
+    font-family: "Avenir Next LT W01 Bold",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 16px 23px;
+    position: relative;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-bottom: 10px;
+    margin-left: 50px;
+  }
+  
+  
+  .div_img:before {
+    background-color: #D5EDF6;
+    content: "";
+    height: calc(100% + 3px);
+    position: absolute;
+    left:-15px;
+    top: -15px;
+    transition: background-color 300ms ease-in;
+    width: 100%;
+    z-index: -0.5;
+  }
+   */
